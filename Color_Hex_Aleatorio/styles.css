@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Fondo gris claro */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin: 100px auto; /* Espaciado vertical */
+  width: 300px; /* Ancho del contenedor */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #ffffff; /* Fondo blanco */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h1 {
+  font-size: 24px; /* Tamaño de fuente */
+  color: #333333; /* Color del texto */
+  margin-bottom: 20px; /* Espaciado inferior */
+}
+
+button {
+  background-color: #007bff; /* Color azul */
+  color: #ffffff; /* Texto blanco */
+  font-size: 16px; /* Tamaño de fuente */
+  padding: 10px 15px; /* Espaciado interno */
+  border: none; /* Sin bordes */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Manita en hover */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color azul oscuro al pasar el mouse */
+}
+
+#colorCode {
+  margin-top: 20px; /* Separación superior */
+  padding: 10px; /* Espaciado interno */
+  font-size: 18px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+  color: #ffffff; /* Texto blanco */
+  background-color: #333333; /* Fondo negro */
+  border-radius: 5px; /* Bordes redondeados */
+  text-align: center; /* Centrado del texto */
+}
