@@ -1,11 +1,18 @@
-
 body {
-    background: darkblue;
+  height: 100vh;
+  background: url(https://w.wallhaven.cc/full/l8/wallhaven-l8x1pr.jpg) no-repeat center center / cover;
+  background-color: gray
 }
 
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+}
+
+.glow { 
+  font-size: 27px; 
+  color: #1AFFB8;
+  text-shadow: 0 0 10px #22A290, 0 0 20px #22A290, 0 0 30px #22A290, 0 0 40px #22A290, 0 0 50px #22A290, 0 0 60px #22A290, 0 0 70px #22A290;
 }
 
 .container {
