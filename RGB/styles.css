@@ -1,0 +1,84 @@
+
+body {
+    background: darkblue;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+    background-color: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.internal-container {
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.preview-container {
+    border: 5px solid black;
+
+    width: 100%;
+    
+    border-radius: 10px;
+}
+
+.result-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+.color {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    display: grid;
+    padding: 10px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: gray;
+    max-height: 15px;
+    border-radius: 25px;
+    
+    opacity: 0.7;
+}
+
+.slider:hover {
+    opacity: 1.0;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 20px;
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background-color: darkblue;
+    border-radius: 25px;
+    cursor: pointer;
+}
